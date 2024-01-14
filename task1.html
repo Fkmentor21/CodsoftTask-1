@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FK Web Page</title>
+    <link rel="stylesheet" type="text/css" href="task1styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pakistan Air Force</h1>
+    </header>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Badge_of_the_Pakistan_Air_Force.svg" alt="Sample Image">
+        </section>
+        <section>
+            <h2>About Us
+
+            </h2>
+            <p>The Pakistan Air Force (PAF) (Urdu: پاک فِضائیہ, romanized: Pāk Fìzāʾiyah; pronounced [pɑːk fɪzɑːɪjəɦ])
+                is the aerial warfare branch of the Pakistan Armed Forces, tasked primarily with the aerial defence of
+                Pakistan, with a secondary role of providing air support to the Pakistan Army and Navy.The Pakistan Air
+                Force is the air warfare branch of the Pakistan Armed Forces who are tasked with providing, in synergy
+                with other services, the most efficient, assured and cost-effective aerial Defence of Pakistan.</p>
+        </section>
+
+
+        <section>
+            <h2>Requirement </h2>
+            <table border="1">
+                <tr>
+                    <th>General Duty Pilot</th>
+                    <th>Aeronautical Engineering</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Age: 16 to 22 Years<br>
+                        Height: 5 Feet 4 Inches (163cm)<br>
+                        Nationality: Pure Pakistani<br>
+                        Marital Status: Unmarried<br>
+                        Vision: 6/6 Vision without Glasses</td>
+                    <td>Age: 16 to 22 Years<br>
+                        Height: 5 Feet 2 Inches <br>
+                        Nationality: Pure Pakistani<br></td>
+                </tr>
+                <tr>
+                    <td> Marital Status: Unmarried<br>
+                        Vision: 6/6 Vision without Glasses</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Test</h2>
+            <ol>
+                <li>Physics & Mathematics</li>
+                <li>Intelligence</li>
+            </ol>
+            <ul>
+                <li>Verbal</li>
+                <li>Non-Verbal</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Review</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Query</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <label for="subscribe">Satisfy</label><br>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Song</h2>
+        <audio controls>
+            <source src="Tum-Hi-Se-Aye-Mujahido-Jahan-Ka-Sabat-Hai.mp3" type="audio/mpeg">
+
+        </audio>
+
+        <video controls width="320" height="240">
+            <source src="VID-20221028-WA0033.mp4" type="video/mp4">
+
+        </video>
+
+        <h2>PAF Veterans Shield 2023</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/H3Vex4klFuw?si=nxSwYcQu6w2h_Qoe"
+            title="YouTube video player" allowfullscreen></iframe>
+            <br><br>
+
+
+        <marquee direction="left">Thanks for visiting our website</marquee>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 Pakistan Air Force</p>
+    </footer>
+</body>
+
+</html>
