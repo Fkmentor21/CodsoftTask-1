@@ -1,0 +1,139 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:#2b8e9c; ;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Additional CSS Styles */
+
+/* Header and Navigation */
+header h1 {
+    font-size: 36px;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav li:hover {
+    background-color: #4ca1af;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li.active {
+    background-color: #176769;
+}
+
+/* Main Section */
+main {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #2b8e9c;
+    color: #fff;
+}
+
+/* Test Section */
+section:nth-child(4) {
+    background-color: #d2edf4;
+    padding: 20px;
+}
+
+ol, ul {
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Review Section */
+section:nth-child(5) {
+    background-color: #fff;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Aside Section */
+aside {
+    background-color: #2b8e9c;
+    color: #fff;
+    padding: 20px;
+}
+
+audio, video, iframe {
+    margin-bottom: 15px;
+}
+
+marquee {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #176769;
+    color: #fff;
+    padding: 15px;
+}
+
+       
